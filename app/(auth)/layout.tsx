@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react'
 
-const Layout = ({ children }: { childreren: ReactNode }) => {
+const Layout = ({ children }: { children: ReactNode }) => {
     return (
         <main className='auth'>{children}</main>
     )
